@@ -94,6 +94,10 @@ body{
     border-radius: 5px;
     transition: 0.2s;
 }
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+}
 
 
 .item__img-cont:after {
